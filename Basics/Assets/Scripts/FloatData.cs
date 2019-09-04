@@ -3,11 +3,37 @@
 [CreateAssetMenu]
 public class FloatData : ScriptableObject
 {
-    public float value;
+    public float value = 1f;
+    public float maxValue = 1f;
 
     public void UpdateValue(float number)
     {
         value += number;
+    }
+
+    public void UpdateValueLimitZero(float amount)
+    {
+        if (value < 0)
+        {
+            value = 0;
+        }
+        else
+        {
+            UpdateValue(amount);
+        }
+    }
+
+    public void UpdateValueLimitZeroAndMaxValue(float amount)
+    {
+        UpdateValueLimitZero(amount);
+        if (value < maxValue)
+        {
+            UpdateValueLimitZero(amount);
+        }
+        else
+        {
+            value = maxValue;
+        }
     }
     
 }
