@@ -28,12 +28,14 @@ public class FloatData : ScriptableObject
         UpdateValueLimitZero(amount);
         if (value < maxValue)
         {
-            UpdateValueLimitZero(amount);
+            UpdateValue(amount);
         }
         else
         {
             value = maxValue;
         }
+
+        UpdateValueLimitZero(amount);
     }
     
 }
