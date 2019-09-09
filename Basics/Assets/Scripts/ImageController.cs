@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Events;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Image))]
@@ -9,8 +6,7 @@ public class ImageController : MonoBehaviour
 {
 
     private Image imageComponent;
-    public UnityEvent UpdateImageEvent;
-    
+
     private void Start()
     {
         imageComponent = GetComponent<Image>();
@@ -21,9 +17,9 @@ public class ImageController : MonoBehaviour
         imageComponent.fillAmount = dataObj.value;
     }
 
-    
-    private void Update()
+    public void UpdateImageComponent(FloatData dataObj)
     {
-        UpdateImageEvent.Invoke();
+        imageComponent.fillAmount = dataObj.value;
     }
+
 }
