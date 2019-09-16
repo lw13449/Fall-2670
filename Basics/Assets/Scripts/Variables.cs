@@ -8,6 +8,7 @@ public class Variables : MonoBehaviour
 
     public GameAction sleepfunction;
     public UnityEvent sleeping;
+    public bool asleep;
 
     private void Start()
     {
@@ -18,5 +19,6 @@ public class Variables : MonoBehaviour
     private void Action()
     {
         sleeping.Invoke();
+        print("Player is asleep");
     }
 }
