@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerBooster : MonoBehaviour
+public class TransformController : MonoBehaviour
 {
     public FloatData speed ;
    
