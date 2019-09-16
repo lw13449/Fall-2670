@@ -8,7 +8,6 @@ public class Variables : MonoBehaviour
 
     public GameAction sleepfunction;
     public UnityEvent sleeping;
-    public bool asleep;
 
     private void Start()
     {
