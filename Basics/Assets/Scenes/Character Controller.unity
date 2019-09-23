@@ -339,7 +339,7 @@ MonoBehaviour:
   moveSpeed: 10
   jumpSpeed: 30
   gravity: 3
-  jumpCountMax: 2
+  jumpData: {fileID: 11400000, guid: 4ed2ab212b91d854cb468d8f45d33443, type: 2}
 --- !u!143 &757632262
 CharacterController:
   m_ObjectHideFlags: 0
@@ -632,7 +632,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043059340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3927851, y: -0.6, z: 4.66}
+  m_LocalPosition: {x: 1.3927851, y: -0.94, z: 4.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
