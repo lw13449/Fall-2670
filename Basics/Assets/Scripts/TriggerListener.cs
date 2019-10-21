@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class EventListening : MonoBehaviour, IListen
+public class TriggerListener : MonoBehaviour, IListen
 {
     public UnityEvent Event { get; set; }
     public Object IRunObj;
     public IRun NewIRunObj { get; set; }
-
+    
     public void Start()
     {
         Event = new UnityEvent();
@@ -14,9 +14,10 @@ public class EventListening : MonoBehaviour, IListen
         Event.AddListener(NewIRunObj.Run);
     }
 
-    private void OnMouseDown()
+    private void OnTriggerEnter(Collider other)
     {
         Event.Invoke();
         Event.RemoveListener(NewIRunObj.Run);
     }
+
 }

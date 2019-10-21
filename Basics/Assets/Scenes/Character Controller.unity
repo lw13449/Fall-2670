@@ -402,6 +402,7 @@ GameObject:
   - component: {fileID: 757632261}
   - component: {fileID: 757632267}
   - component: {fileID: 757632268}
+  - component: {fileID: 757632269}
   m_Layer: 0
   m_Name: Mover
   m_TagString: Untagged
@@ -571,6 +572,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &757632269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757632260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c18c094308870a468c16eed2e60541d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IRunObj: {fileID: 11400000, guid: 84c2973f5ae208e409565498599260d2, type: 2}
 --- !u!1 &892385787 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1799582284956240969, guid: 8f787344e96419c4db2f4a65b3ac39a0,
@@ -964,22 +978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c18c094308870a468c16eed2e60541d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  configuredMouseEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: e849a58cf01473549a9cb7882f08d20d, type: 2}
-        m_MethodName: OnDebug
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Welcome to your nightmare
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  IRunObj: {fileID: 0}
 --- !u!1001 &1799582284099597746
 PrefabInstance:
   m_ObjectHideFlags: 0
