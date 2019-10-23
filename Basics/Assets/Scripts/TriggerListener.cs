@@ -14,10 +14,9 @@ public class TriggerListener : MonoBehaviour, IListen
         Event.AddListener(NewIRunObj.Run);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnger(Collider other)
     {
         Event.Invoke();
-        Event.RemoveListener(NewIRunObj.Run);
     }
 
 }

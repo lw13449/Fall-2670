@@ -1,4 +1,7 @@
-﻿public interface IRun
+﻿using UnityEngine;
+using UnityEngine.Events;
+
+public interface IRun
 {
     void Run();
 }
@@ -18,4 +21,9 @@ public interface IListen
 public interface ITrigger
 {
     void OnTriggerEnter(Collider obj);
+}
+
+public interface IMove
+{
+    void Move(CharacterController controller);
 }
