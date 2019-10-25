@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public interface IRun
 {
-    void Run();
+    void Run( );
 }
 
 public interface ITest

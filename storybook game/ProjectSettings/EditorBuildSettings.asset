@@ -17,4 +17,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CityBlocks.unity
     guid: 178149e01ca83cd4ab612cec7bea3650
+  - enabled: 1
+    path: Assets/Scenes/ToysInTheAttic.unity
+    guid: 0f75e83f9871f0e4fb09cb0061260ece
+  - enabled: 1
+    path: Assets/Scenes/OddsAndEnds.unity
+    guid: 6e49f14f543e9ab41bfb3bd431b06864
+  - enabled: 1
+    path: Assets/Scenes/AtTheBeach.unity
+    guid: 0723a3d6e12400640975abdd29082e18
+  - enabled: 1
+    path: Assets/Scenes/ArtsAndCrafts.unity
+    guid: 8eb50ae47a14a3e46802a8d37adaf1f0
+  - enabled: 1
+    path: Assets/Scenes/Make Believe.unity
+    guid: 31640d7f1e3367a478727b3db8ab6c51
+  - enabled: 1
+    path: Assets/Scenes/Nature.unity
+    guid: c09d7e0288cced14f8ee824f1956e7c3
+  - enabled: 1
+    path: Assets/Scenes/Cubbies.unity
+    guid: d68603f8bbffdd34499388b8c1228f51
   m_configObjects: {}
